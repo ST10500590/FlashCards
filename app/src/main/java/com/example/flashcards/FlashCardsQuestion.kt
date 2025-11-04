@@ -96,7 +96,7 @@ class FlashCardsQuestion : ComponentActivity() {
                     OutlinedTextField(
                         value = question2,
                         onValueChange = { text -> question2 = text },
-                        placeholder = { Text(text = "Answer") }
+                        placeholder = { Text(text = "Answer now") }
                     )
 
                     Spacer(modifier = Modifier.size(30.dp))
